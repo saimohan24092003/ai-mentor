@@ -1,9 +1,31 @@
 # AI Mentor — Product Vision & Development Guide
 
+---
+
+## MANDATORY: Read Before Every Session
+
+At the start of **every conversation**, you MUST:
+
+1. Read `C:\Users\Asus\.claude\projects\C--Users-Asus-Desktop-AI-Mentor\memory\MEMORY.md` (index)
+2. Read `project_meeting_2026_03_27.md` — latest client decisions (Aivorah, demo April 10, UI feedback, features)
+3. Read `project_full_requirement.md` — master product vision
+
+**Client decisions and suggestions are the highest priority.** Never contradict or ignore them. If a code change conflicts with a client decision, flag it before proceeding.
+
+Key facts to always remember:
+- Product name: **Aivorah** (not "AI Mentor", not "Ayura")
+- Demo deadline: **April 10, 2026**
+- No Firebase (shutting down March 2027) — use Supabase instead
+- No 5E model — learning flow is **Learn → Practice** only
+- Server port: **3006** — never kill -9, increment if conflict
+- Voice: family voices planned (ElevenLabs temp); no Matilda for kids
+
+---
+
 ## Company & Context
 
-- **Company**: NuShift (Pratisha's husband's company; new EdTech company being registered)
-- **Product Name**: AI Mentor (educational app — name TBD for the new entity)
+- **Company**: Nu+Shift (Pratisha's husband's company; new EdTech company being registered)
+- **Product Name**: Aivorah (formerly called AI Mentor)
 - **Pilot School**: Top-tier school in Hyderabad (very large, land bank ~$6B, in hospitality, hospitals, green infra)
 - **Pilot Timeline**: May–June (IB PYP Grades 3, 4, 5)
 - **Survey**: 500 parents contacted → 10,000 responses; overwhelming interest from teachers too
